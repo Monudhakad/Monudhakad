@@ -4,12 +4,13 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f5f5f5;
+    background-color: #121212; /* Dark background, slightly lighter than pure black */
+    color: #8fbc8f; /* Soothing green text color */
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #1b1b1b; /* Dark header background */
+    color: #8fbc8f; /* Soothing green text */
     padding: 1rem 0;
 }
 
@@ -22,6 +23,7 @@ header {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
+    color: #98fb98; /* Lighter green logo text */
 }
 
 .nav-links {
@@ -31,29 +33,45 @@ header {
 }
 
 .nav-links a {
-    color: #fff;
+    color: #8fbc8f; /* Soothing green text for nav links */
     text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #98fb98; /* Lighter green text on hover */
 }
 
 .auth-links a {
     margin-left: 1rem;
-    color: #fff;
+    color: #8fbc8f; /* Soothing green text */
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .auth-links .login-btn {
-    background-color: #555;
+    background-color: #333333; /* Darker black button background */
+    color: #8fbc8f;
+}
+
+.auth-links .login-btn:hover {
+    background-color: #444444; /* Slightly lighter on hover */
 }
 
 .auth-links .signup-btn {
-    background-color: #007bff;
+    background-color: #006400; /* Dark green button background */
+    color: #ffffff; /* White text color */
+}
+
+.auth-links .signup-btn:hover {
+    background-color: #004d00; /* Darker green on hover */
 }
 
 .hero {
     background: url('path-to-your-background-image.jpg') no-repeat center center/cover;
-    color: #fff;
+    color: #8fbc8f; /* Soothing green text color */
     text-align: center;
     padding: 4rem 0;
 }
@@ -69,16 +87,22 @@ header {
 }
 
 .hero .cta-btn {
-    background-color: #007bff;
-    color: #fff;
+    background-color: #006400; /* Dark green button background */
+    color: #ffffff; /* White text color */
     padding: 1rem 2rem;
     text-decoration: none;
     border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .cta-btn:hover {
+    background-color: #004d00; /* Darker green on hover */
 }
 
 .overview, .goals {
     padding: 2rem 0;
     text-align: center;
+    color: #8fbc8f; /* Soothing green text color */
 }
 
 .overview h2, .goals h2 {
@@ -91,8 +115,8 @@ header {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #1b1b1b; /* Dark footer background */
+    color: #8fbc8f; /* Soothing green text color */
     padding: 1rem 0;
 }
 
@@ -109,12 +133,22 @@ footer {
 }
 
 .footer-links a {
-    color: #fff;
+    color: #8fbc8f; /* Soothing green text color */
     text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #98fb98; /* Lighter green text on hover */
 }
 
 .social-links a {
     margin-left: 1rem;
-    color: #fff;
+    color: #8fbc8f; /* Soothing green text color */
     text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #98fb98; /* Lighter green text on hover */
 }
