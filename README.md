@@ -1,7 +1,6 @@
 Hi, I’m @Monudhakad
 I’m interested in ... cybersecurity 
 I’m currently learning ... pentesting 
-How to reach me ... ig @monu_dhakad23
 
 
 <!---
